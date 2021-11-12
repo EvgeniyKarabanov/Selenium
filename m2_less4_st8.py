@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+print('test commits')
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--remote-debugging-port=9222")
 
